@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simon | Game</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 class="center light-green-text">Simon Game</h1>
+    <div class="buttons center">
+        <a class="btn blue" id="reset">Reset</a>
+        <a class="btn green" id="start">Start</a>
+    </div>
+    <div class="simon" id="red"></div>
+    <div class="simon" id="green"></div>
+    <div class="simon" id="yellow"></div>
+    <div class="simon" id="blue"></div>
+    <h4 class="center">Rounds</h4>
+    <h3 class="center" id="rounds">0</h3>
+    <h3 class="center red-text" id="error">Wrong !!</h3>
+    <h3 class="center green white-text win">Congratulations You Won !!</h3>
+    <p class="center">
+        <input type="checkbox" id="strict" />
+        <label for="strict" class="red-text">Strict</label>
+    </p>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

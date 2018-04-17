@@ -1,0 +1,67 @@
+/*General Style*/
+
+body {
+    background-color: #EAEAEA;
+    margin: 20px;
+}
+
+.simon {
+    height: 50px;
+    width: 250px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.buttons {
+    margin: auto;
+    width: 500px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#error {
+    display: none;
+}
+
+.simon:hover {
+    border: 2px solid #FFF;
+}
+
+.win {
+    padding: 10px;
+    display: none;
+}
+
+#red {
+    background-color: #c62828;
+}
+
+.red-active {
+    background-color: #ff5252 !important;
+}
+
+#green {
+    background-color: #2e7d32;
+}
+
+.green-active {
+    background-color: #43a047 !important;
+}
+
+#yellow {
+    background-color: #ffea00;
+}
+
+.yellow-active {
+    background-color: #fff176 !important;
+}
+
+#blue {
+    background-color: #0277bd;
+}
+
+.blue-active {
+    background-color: #29b6f6 !important;
+}
+
+/*General Style*/
